@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { useParams, useSearchParams } from 'react-router-dom'
 import "./ProductDetails.css"
 import { Link } from 'react-router-dom'
-import Welcome from './Welcome'
 function ProductDetails() {
 
   const [details, setDetails] = useState({
@@ -20,9 +19,19 @@ function ProductDetails() {
 
   useEffect(() => {
     if (!id || !category) return;
-    fetch(`http://localhost:3000/${category}/${id}`)
+    fetch('/ALL.json')
       .then(response => response.json())
-      .then(data => setDetails(data))
+      .then(data => {
+        // Get the category array from the JSON
+        const categoryData = data[category];
+        if (categoryData) {
+          // Find the specific course by id
+          const course = categoryData.find(item => item.id == id);
+          if (course) {
+            setDetails(course);
+          }
+        }
+      })
       .catch(e => console.log("err: ", e))
     console.log(category, id)
   }, [id, category, searchParams])
@@ -40,7 +49,7 @@ function ProductDetails() {
         <h3>{details.description}</h3>
         <h2>Topics will be covered!!</h2>
         <div>
-          {details?.portions?.map((point, i) => <h3 key={i}>{point}</h3>)}
+          {details?.portions?.map((points, i) => <h3 key={i}>{points}</h3>)}
         </div>
         <div id='details-footer'>
           <p >{details.price}</p>

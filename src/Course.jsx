@@ -7,7 +7,7 @@ function Course(id) {
 const [course,setCourse]=useState(null)
 
 useEffect(() => {
-        fetch(`http://localhost:3000//${props.category}`+id)
+        fetch(`ALL.json/${props.category}`+id)
             .then(response => {
                 return response.json()
             })

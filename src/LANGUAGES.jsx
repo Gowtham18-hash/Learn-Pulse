@@ -5,11 +5,11 @@ function LANGUAGES() {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/LANGUAGES")
+        fetch("/ALL.json")
             .then(response => {
                 return response.json()
             })
-            .then(data => setCourses(data))
+            .then(data => setCourses(data.LANGUAGES))
     }, [])
 
     if (!courses) {

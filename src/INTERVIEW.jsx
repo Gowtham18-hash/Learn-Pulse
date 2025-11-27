@@ -5,11 +5,11 @@ function INTERVIEW() {
     const [courses, setCourses] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:3000/INTERVIEW")
+        fetch("/ALL.json")
             .then(response => {
                 return response.json()
             })
-            .then(data => setCourses(data))
+            .then(data => setCourses(data.INTERVIEW))
     }, [])
 
     if (!courses) {

@@ -11,15 +11,15 @@ function Footer() {
             <p><img width="25" height="25" src="https://img.icons8.com/sf-ultralight/25/sent.png" alt="sent"/>gwth2004@gmail.com</p>
            
         </div>
-        <div class="social-contacts">
+        <div className="social-contacts">
 
-                        <a class="logo logo1" href="" alt="whatsapp--v1"></a>
+                        <a className="logo logo1" href="" alt="whatsapp--v1"></a>
 
-                        <a class="logo logo2" href="" alt="facebook--v1"></a>
+                        <a className="logo logo2" href="" alt="facebook--v1"></a>
 
-                        <a class="logo logo3" href="" alt="instagram--v1"></a>
+                        <a className="logo logo3" href="" alt="instagram--v1"></a>
 
-                        <a class="logo logo4" href="" alt="twitter--v1"></a>
+                        <a className="logo logo4" href="" alt="twitter--v1"></a>
 
                     </div>
           <div >

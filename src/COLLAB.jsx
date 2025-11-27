@@ -5,11 +5,11 @@ function COLLAB() {
     const [courses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/COLLAB")
+        fetch("/ALL.json")
             .then(response => {
                 return response.json()
             })
-            .then(data => setCourses(data))
+            .then(data => setCourses(data.COLLAB))
     }, [])
 
     if (!courses) {
@@ -22,7 +22,7 @@ function COLLAB() {
                 name={courses.name}
                 // description={courses.description}
                 // price={courses.price}
-                image={courses.image1}
+                image={courses.image2}
                 id={courses.id}
                 category="COLLAB"
             />

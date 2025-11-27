@@ -1,15 +1,15 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import CourseDetails from "./CourseDetails";
 function NON_IT() {
 
     const [courses, setCourses] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:3000/NON-IT")
+        fetch("/ALL.json")
             .then(response => {
                 return response.json()
             })
-            .then(data => setCourses(data))
+            .then(data => setCourses(data['NON-IT']))
     }, [])
 
     if (!courses) {
@@ -28,16 +28,16 @@ function NON_IT() {
     )
     return (
         <>
-        <div>
-            <h1>
-"                Unlock new opportunities with skills that go beyond technology.
-"            </h1>
-        </div>
-        <div id="group">
-             {CourseList }
-        </div>
+            <div>
+                <h1>
+                    "                Unlock new opportunities with skills that go beyond technology.
+                    "            </h1>
+            </div>
+            <div id="group">
+                {CourseList}
+            </div>
         </>
-       
+
     );
 }
 

@@ -6,11 +6,11 @@ function IT() {
     const [courses, setCourses] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:3000/IT")
+        fetch("/ALL.json")
             .then(response => {
                 return response.json()
             })
-            .then(data => setCourses(data))
+            .then(data => setCourses(data.IT))
     }, [])
 
     if (!courses) {
@@ -21,7 +21,6 @@ function IT() {
         (courses) =>
            <CourseDetails key={courses.id}
                 name={courses.name}
-                // price={courses.price}
                 image={courses.image1}
                 id={courses.id}
                 category="IT"
