@@ -2,7 +2,7 @@ import './index.css'
 import './Carousel.css'
 import { Link } from 'react-router-dom'
 import Search from './Search'
-import logo from '../DummyData/assets/logo.png'
+import logo from '../assets/logo.png'
 
 function Home() {
 
@@ -36,31 +36,31 @@ function Home() {
 
                 <div className="carousel">
                     <div className="group">
-                        <div className="element"><img width="200" height="200" src="../DummyData/assets/mongodb.svg" alt="" /></div>
-                        <div className="element"><img width="200" height="200" src="../DummyData/assets/python.svg" alt="" /></div>
-                        <div className="element"><img width="100" height="100" src="../DummyData/assets/android.svg" alt="" /></div>
-                        <div className="element"><img width="150" height="150" src="../DummyData/assets/mysql.svg" alt="" /></div>
-                        <div className="element"><img width="100" height="60" src="../DummyData/assets/aws.svg" alt="" /></div>
-                        <div className="element"><img width="120" height="120" src="../DummyData/assets/zapier.svg" alt="" /></div>
-                        <div className="element"><img width="120" height="120" src="../DummyData/assets/salesforce.svg" alt="" /></div>
-                        <div className="element"><img width="80" height="80" src="../DummyData/assets/flutter.svg" alt="" /></div>
-                        <div className="element"><img width="100" height="100" src="../DummyData/assets/docker.svg" alt="" /></div>
-                        <div className="element"><img width="120" height="120" src="../DummyData/assets/git.svg" alt="" /></div>
-                        <div className="element"><img width="120" height="120" src="../DummyData/assets/nvidia.svg" alt="" /></div>
+                        <div className="element"><img width="200" height="200" src="../assets/mongodb.svg" alt="" /></div>
+                        <div className="element"><img width="200" height="200" src="../assets/python.svg" alt="" /></div>
+                        <div className="element"><img width="100" height="100" src="../assets/android.svg" alt="" /></div>
+                        <div className="element"><img width="150" height="150" src="../assets/mysql.svg" alt="" /></div>
+                        <div className="element"><img width="100" height="60"  src="../assets/aws.svg" alt="" /></div>
+                        <div className="element"><img width="120" height="120" src="../assets/zapier.svg" alt="" /></div>
+                        <div className="element"><img width="120" height="120" src="../assets/salesforce.svg" alt="" /></div>
+                        <div className="element"><img width="80" height="80"   src="../assets/flutter.svg" alt="" /></div>
+                        <div className="element"><img width="100" height="100" src="../assets/docker.svg" alt="" /></div>
+                        <div className="element"><img width="120" height="120" src="../assets/git.svg" alt="" /></div>
+                        <div className="element"><img width="120" height="120" src="../assets/nvidia.svg" alt="" /></div>
 
                     </div>
                     <div aria-hidden className="group">
-                        <div className="element"><img width="200" height="200" src="../DummyData/assets/mongodb.svg" alt="" /></div>
-                        <div className="element"><img width="200" height="200" src="../DummyData/assets/python.svg" alt="" /></div>
-                        <div className="element"><img width="100" height="100" src="../DummyData/assets/android.svg" alt="" /></div>
-                        <div className="element"><img width="150" height="150" src="../DummyData/assets/mysql.svg" alt="" /></div>
-                        <div className="element"><img width="100" height="60" src="../DummyData/assets/aws.svg" alt="" /></div>
-                        <div className="element"><img width="120" height="120" src="../DummyData/assets/zapier.svg" alt="" /></div>
-                        <div className="element"><img width="120" height="120" src="../DummyData/assets/salesforce.svg" alt="" /></div>
-                        <div className="element"><img width="80" height="80" src="../DummyData/assets/flutter.svg" alt="" /></div>
-                        <div className="element"><img width="100" height="100" src="../DummyData/assets/docker.svg" alt="" /></div>
-                        <div className="element"><img width="120" height="120" src="../DummyData/assets/git.svg" alt="" /></div>
-                        <div className="element"><img width="120" height="120" src="../DummyData/assets/nvidia.svg" alt="" /></div>
+                        <div className="element"><img width="200" height="200" src="../assets/mongodb.svg" alt="" /></div>
+                        <div className="element"><img width="200" height="200" src="../assets/python.svg" alt="" /></div>
+                        <div className="element"><img width="100" height="100" src="../assets/android.svg" alt="" /></div>
+                        <div className="element"><img width="150" height="150" src="../assets/mysql.svg" alt="" /></div>
+                        <div className="element"><img width="100" height="60"  src="../assets/aws.svg" alt="" /></div>
+                        <div className="element"><img width="120" height="120" src="../assets/zapier.svg" alt="" /></div>
+                        <div className="element"><img width="120" height="120" src="../assets/salesforce.svg" alt="" /></div>
+                        <div className="element"><img width="80" height="80"   src="../assets/flutter.svg" alt="" /></div>
+                        <div className="element"><img width="100" height="100" src="../assets/docker.svg" alt="" /></div>
+                        <div className="element"><img width="120" height="120" src="../assets/git.svg" alt="" /></div>
+                        <div className="element"><img width="120" height="120" src="../assets/nvidia.svg" alt="" /></div>
 
                     </div>
                 </div>
