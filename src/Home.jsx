@@ -2,7 +2,7 @@ import './index.css'
 import './Carousel.css'
 import { Link } from 'react-router-dom'
 import Search from './Search'
-import logo from '../assets/logo.png'
+import logo from '../public/assets/logo.png'
 
 function Home() {
 
