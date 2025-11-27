@@ -5,9 +5,9 @@ import { useNavigate } from 'react-router-dom'
 function Welcome() {
   const navigate = useNavigate();
 
-  // setTimeout(() => {
-  //   navigate("/")
-  // }, 4000)
+  setTimeout(() => {
+    navigate("/")
+  }, 4000)
   return (
     <div id='welcome'>
 
