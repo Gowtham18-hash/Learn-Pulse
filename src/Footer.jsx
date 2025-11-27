@@ -6,7 +6,7 @@ function Footer() {
 
 
         <div>
-            <h1>Get Connect</h1>
+            <h1>Get Connection</h1>
             <p><img width="24" height="24" src="https://img.icons8.com/forma-thin/24/phone.png" alt="phone"/>+91 9025748213</p>
             <p><img width="25" height="25" src="https://img.icons8.com/sf-ultralight/25/sent.png" alt="sent"/>gwth2004@gmail.com</p>
            
