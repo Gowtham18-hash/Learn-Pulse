@@ -1,0 +1,267 @@
+* {
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    animation: transition 2s ease 1;
+}
+
+.logo {
+    margin: 15px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+
+
+@keyframes transition {
+    0% {
+        transform: translate(-400px, 0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+#main-title {
+
+    font-size: 19px;
+}
+
+input {
+    font-size: 19px;
+    width: 80%;
+    margin-top: 50px;
+    height: 40px;
+    border: none;
+    padding: 20px;
+    transition: all 0.3s linear;
+}
+
+input:hover {
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px #8d888a;
+}
+
+title {
+    margin-left: 100px;
+}
+
+/* ------------- */
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 100px;
+    position: sticky;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInOut {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+        color: #ababab;
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    
+
+}
+
+.button {
+    font-size: 20px;
+    cursor: pointer;
+    color: #ababab;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.button:hover {
+    background-color: #e1e1e1;
+    color: #121317;
+    border-radius: 100px;
+}
+
+/* ------------------------offers------------------- */
+.offers {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.provides {
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 250px;
+    animation: fadeInOut 2s ease-in-out ;
+    box-shadow: 0px 0px 15px #ababab;
+
+}
+/* ---------------------footer-------------------- */
+
+#footer {
+    display: block;
+    text-align: center;
+}
+.logo1 {
+    height: 25px;
+    width: 25px;
+    content: url(https://img.icons8.com/ios-filled/50/ababab/whatsapp--v1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s linear 0s;
+}
+
+.logo1:hover {
+    content: url("https://img.icons8.com/ios-filled/50/121317/whatsapp--v1.png");
+    transform: scale(1.2);
+}
+
+.logo2 {
+    height: 25px;
+    width: 25px;
+    content: url(https://img.icons8.com/ios-filled/50/ababab/facebook--v1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s linear 0s;
+}
+
+.logo2:hover {
+    content: url("https://img.icons8.com/ios-filled/50/121317/facebook--v1.png");
+    transform: scale(1.2);
+}
+
+.logo3 {
+    height: 25px;
+    width: 25px;
+    content: url(https://img.icons8.com/ios-filled/50/ababab/instagram--v1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s linear 0s;
+}
+
+.logo3:hover {
+    content: url("https://img.icons8.com/ios-filled/50/121317/instagram--v1.png");
+    transform: scale(1.2);
+}
+
+.logo4 {
+    height: 25px;
+    width: 25px;
+    content: url(https://img.icons8.com/ios-filled/50/ababab/twitter--v1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s linear 0s;
+}
+.logo4:hover {
+    content: url("https://img.icons8.com/ios-filled/50/121317/twitter--v1.png");
+    transform: scale(1.2);
+}
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Tablet View (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .header {
+        gap: 50px;
+    }
+
+    .options {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+}
+
+/* Mobile View (< 768px) */
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 10px auto;
+    }
+
+    span h1 {
+        font-size: 22px;
+    }
+
+    span h2 {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 16px;
+        width: 90%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    .options {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 12px 20px;
+        width: 100%;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .offers {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .offers h1 {
+        font-size: 24px;
+    }
+
+    .offers h3 {
+        font-size: 16px;
+    }
+}

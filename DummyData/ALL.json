@@ -1,0 +1,654 @@
+{
+
+"IT":[
+    {
+        "id":"1",
+        "name":"MEAN STACK", 
+        "description":"Gain expertise in Angular, Node.js, Express.js, and MongoDB to build complete MEAN applications. Learn component-based UI development, backend routing, API creation, and database handling. Designed for developers aiming to build scalable, real-time web apps using TypeScript and JavaScript.",
+        "portions": [
+        "HTML, CSS, JavaScript basics",
+        "React basics, components, hooks",
+        "Node.js & Express.js backend",
+        "MongoDB database & Mongoose",
+        "REST APIs, JWT authentication",
+        "Full MERN project deployment"
+      ],
+        "price":"$499",
+        "image1":"../assets/MEAN.png",
+        "image2":"../assets/4).png"
+        
+    },
+    {
+        "id":"2", 
+        "name":"MERN STACK", 
+        "description":"Become a job-ready MERN Developer by learning MongoDB, Express.js, React, and Node.js in a fully practical approach. Understand how to build dynamic REST APIs, manage NoSQL databases, and create responsive UI using React. Ideal for building modern JavaScript-based full-stack applications.",
+        "portions": [
+        "HTML, CSS, JavaScript fundamentals",
+        "Angular components, routing, services",
+        "Node.js & Express.js backend",
+        "MongoDB & Mongoose",
+        "API handling & authentication",
+        "MEAN full-stack project"
+      ],
+        "price":"$499",
+        "image1":"../assets/MERN.png",
+        "image2":"../assets/3.png"
+    },
+    {
+        "id":"3",
+        "name":"JAVA FULLSTACK", 
+        "description":"Master full-stack development using Core Java, Spring Boot, and Hibernate on the backend paired with modern front-end technologies. Learn to build secure REST APIs, integrate databases, and develop interactive UI components. This course prepares you to create scalable enterprise applications end-to-end.",
+        "portions":[
+            
+        "Core Java: OOP, classes, collections",
+        "Java 8 features, Exception handling",
+        "JDBC & MySQL",
+        "Spring Boot REST APIs",
+        "Hibernate & JPA",
+        "Spring Security + full project"
+      
+        ],
+        "price":"$499",
+        "image1":"../assets/JAVA.png",
+        "image2":"../assets/1.png"
+        
+    },
+    {
+        "id":"4",
+        "name":"PYTHON FULLSTACK", 
+        "description":"Master end-to-end development with our Python Full Stack course, combining Python back-end frameworks with dynamic front-end technologies. Gain hands-on experience in CRUD operations, API handling, UI building, and database management. Designed to prepare you for real industry-level projects and roles.",
+        "portions": [
+
+        "Python basics & OOP",
+        "Flask/Django backend",
+        "REST API creation",
+        "MySQL/PostgreSQL databases",
+        "Authentication & JWT",
+        "Python full-stack project"
+      
+    ],
+        "price":"$499",
+        "image1":"../assets/PYTHON.png",
+        "image2":"../assets/2.png"
+        
+    },
+    {
+        "id":"5",
+        "name":"DEVOPS", 
+        "description":"Master continuous integration, continuous deployment, containerization, and cloud deployment using industry tools. Learn Git, Jenkins, Docker, Kubernetes, Linux, and AWS to automate development pipelines. Perfect for roles focused on modern DevOps workflows and infrastructure automation.",
+        "portions": [
+        "Testing fundamentals",
+        "Manual testing & test cases",
+        "Selenium automation basics",
+        "TestNG & Selenium WebDriver",
+        "API testing with Postman",
+        "Automation testing project"
+      ],
+        "price":"$499",
+        "image1":"../assets/DEVOPS.png",
+        "image2":"../assets/5.png"
+        
+    },
+    {
+        "id":"6",
+        "name":"TESTING ENGINEER", 
+        "description":"Learn complete software testing including manual testing, automation testing, and API validation. This course covers Selenium, TestNG, frameworks, bug reporting, and test case design. Ideal for beginners aiming to become skilled QA engineers capable of ensuring product quality.",
+
+        "price":"$499",
+        "image1":"../assets/TESTER.png",
+        "image2":"../assets/6.png"
+        
+    },
+    {
+        "id":"7",
+        "name":"DATA ANALYST", 
+        "description":"Develop strong analytical skills using Excel, SQL, Python, Power BI, and Tableau. Learn data cleaning, visualization, reporting, and trend analysis. Perfect for roles focused on extracting insights and supporting business decision-making with data.",
+         "portions": [
+        "Linux & Shell scripting",
+        "Git & GitHub version control",
+        "CI/CD with Jenkins",
+        "Docker & containerization",
+        "Kubernetes basics",
+        "AWS & deployment project"
+      ],
+        "price":"$499",
+        "image1":"../assets/DATA_ANALYST.png",
+        "image2":"../assets/7.png"
+        
+    },
+    {
+        "id":"8",
+        "name":"DATA ENGINEER", 
+        "description":"Master the essentials of building data pipelines using Python, SQL, Spark, and Big Data technologies. Learn ETL processes, cloud storage, streaming data, and workflow orchestration. Designed to prepare you for roles handling large-scale data movement and processing.",
+        "portions": [
+        "Excel advanced functions",
+        "Python for data analysis",
+        "Pandas, NumPy",
+        "Data visualization: Power BI / Tableau",
+        "SQL & queries",
+        "Data analysis project"
+      ],
+        "price":"$499",
+        "image1":"../assets/DATA_ENGINEER.png",
+        "image2":"../assets/8.png"
+        
+    }
+    
+
+],
+
+"NON-IT":[
+    {
+        "id":1,
+        "name":"VOICE PROCESSING", 
+        "description":"Learn communication skills, call handling techniques, accent clarity, customer interaction, and problem-solving for voice-based support roles. The course focuses on real-time conversation training, listening skills, and handling inbound/outbound calls professionally.",
+         "portions": [
+        "Communication fundamentals",
+        "Accent training & clarity",
+        "Call handling & etiquette",
+        "Customer service skills",
+        "Listening & problem-solving",
+        "Inbound & outbound call practice"
+      ],
+        "price":"$499",
+        "image1":"../assets/VOICE.png",
+        "image2":"../assets/voice1.png"
+        
+    },
+    {
+        "id":2, 
+        "name":"NON-VOICE", 
+        "description":"Understand email/chat support operations, professional writing etiquette, grammar, and customer query resolution. Learn ticket handling, documentation, and communication workflows required for non-voice BPO roles. Ideal for learners who prefer text-based customer service.",
+       "portions": [
+        "Email & chat support basics",
+        "Professional writing etiquette",
+        "Grammar and accuracy",
+        "Ticket handling & documentation",
+        "Customer query resolution",
+        "Workflow and SLA training"
+      ],
+        "price":"$499",
+        "image1":"../assets/NON-VOICE.png",
+        "image2":"../assets/nonvoice.png"
+
+    },
+    
+    {
+        "id":3,
+        "name":"CONTENT-WRITER", 
+        "description":"Master the fundamentals of writing engaging blogs, articles, web content, and social media posts. Learn SEO writing, keyword research, editing, storytelling, and brand-focused communication. This course prepares learners to build strong writing portfolios and work confidently as content creators.",
+         "portions": [
+        "Basics of writing & grammar",
+        "Blog and article writing",
+        "SEO & keyword research",
+        "Editing and proofreading",
+        "Content strategy & brand writing",
+        "Portfolio creation"
+      ],
+        "price":"$499",
+        "image1":"../assets/CONTENT-WRITER.png",
+        "image2":"../assets/content.png"
+        
+    },
+    {
+        "id":4,
+        "name":"HUMAN RESOURCE", 
+        "description":"This course covers recruitment, onboarding, policies, payroll basics, HRMS tools, and employee engagement strategies. Learn to manage interviews, documentation, and workplace compliance. Perfect for aspiring HR executives and coordinators.",
+         "portions": [
+        "Recruitment & sourcing",
+        "Interview process management",
+        "Onboarding & HR documentation",
+        "Payroll basics",
+        "HRMS tool usage",
+        "Employee engagement & policies"
+      ],
+        "price":"$499",
+        "image1":"../assets/HUMAN-RESOURCE.png",
+        "image2":"../assets/humanre).png"
+        
+    },
+    {
+        "id":5,
+        "name":"DIGITAL MARKETING", 
+        "description":"Learn SEO, Google Ads, social media marketing, analytics, branding, and content strategy. Get hands-on experience with campaigns, keyword tools, and audience targeting. Perfect for those aiming to grow businesses digitally or become marketing professionals.",
+         "portions": [
+        "SEO & search ranking",
+        "Social media marketing",
+        "Google Ads & Analytics",
+        "Content strategy",
+        "Branding & audience targeting",
+        "Campaign planning"
+      ],
+        "price":"$499",
+        "image1":"../assets/DIGITAL-MARKETING.png",
+                "image2":"../assets/dm.png"
+
+        
+    },
+    {
+        "id":6,
+        "name":"UX & UI", 
+        "description":"Master wireframing, prototyping, visual design, and user research to build modern UI/UX experiences. Learn tools like Figma, Adobe XD, and design principles that make apps intuitive and clean. Ideal for aspiring designers who want to create user-friendly digital interfaces.",
+       "portions": [
+        "Design principles & color theory",
+        "Wireframing & prototyping",
+        "User research & personas",
+        "Figma & Adobe XD tools",
+        "Visual design patterns",
+        "UI/UX case study creation"
+      ],
+        "price":"$499",
+        "image1":"../assets/UI&UX.png",
+         "image2":"../assets/uiux.png"
+        
+    },
+    {
+        "id":7,
+        "name":"GRAPHICS DESIGN", 
+        "description":"This course teaches typography, color theory, branding, and layout design using Adobe Photoshop, Illustrator, and Canva. Learn to create social media posts, posters, logos, and marketing designs. Perfect for creative learners looking to build a design portfolio.",
+        "price":"$499",
+        "image1":"../assets/GRAPHICS-DESIGN.png",
+        "image2":"../assets/graphics.png"
+        
+    },
+   
+    {
+        "id":8,
+        "name":"ANIMATION & VFX", 
+        "description":"Learn 2D/3D animation, motion graphics, video editing, and visual effects using tools like Blender, Maya, and After Effects. Explore character animation, compositing, and cinematic effects. Ideal for creative artists seeking careers in films, gaming, or multimedia studios.",
+        "portions": [
+        "Basics of design",
+        "Typography & color usage",
+        "Logo & branding design",
+        "Adobe Photoshop & Illustrator",
+        "Social media design",
+        "Portfolio building"
+      ],
+        "price":"$499",
+        "image1":"../assets/ANIMATION&VFX.png",
+         "image2":"../assets/vfx.png"
+    }
+],
+
+"INTERVIEW":[
+    {
+        "id":1,
+        "name":"VERBAL ", 
+        "description":"Verbal training enhances your English language proficiency through grammar, vocabulary, comprehension, sentence correction, and para-jumbling exercises. It helps you communicate clearly and perform better in written tests, email writing, and HR discussions. Suitable for all students preparing for placement exams.",
+       "portions": [
+        "Reading Comprehension",
+        "Synonyms & Antonyms",
+        "Sentence Correction",
+        "Para-Jumbles",
+        "Error Spotting",
+        "Vocabulary Building",
+        "Fill in the Blanks",
+        "Active & Passive Voice"
+      ],
+        "price":"$499",
+        "image1":"../assets/Communication.png",
+        "image2":"../assets/verbal.png"
+        
+    },
+    {
+        "id":2, 
+        "name":"REASON APTITUDE", 
+        "description":"This course strengthens your quantitative and logical thinking skills with topics like arithmetic, data interpretation, puzzles, seating arrangements, and analytical reasoning. It helps you improve speed, accuracy, and problem-solving using shortcut methods and logical techniques. Designed for placement exams and competitive tests, it boosts your ability to think clearly, solve complex questions, and make smarter decisions under time pressure.",
+        "portions": [
+        "Percentages & Profit-Loss",
+        "Time,Work, Speed & Distance",
+        "Simple & Compound Interest",
+        "Non-Verbal Reasoning",
+        "Blood Relations",
+        "Permutation & Combination",
+        "Probability,Averages & Ratios",
+        "Data Interpretation"
+      ],
+        "price":"$499",
+        "image1":"../assets/APTI.png",
+        "image2":"../assets/aptitudee.png"
+    },
+    
+    {
+        "id":3,
+        "name":"SOFT SKILLS", 
+        "description":"Soft Skills training focuses on communication, teamwork, time management, confidence building, and interview etiquette. This course helps you develop a professional personality and prepares you for HR rounds. It improves your overall corporate readiness and boosts your chances of cracking interviews.",
+         "portions": [
+        "Communication Skills",
+        "Teamwork & Collaboration",
+        "Time Management",
+        "Problem-Solving Approach",
+        "Confidence Building",
+        "Interview Etiquette",
+        "Resume Presentation",
+        "Body Language Skills"
+      ],
+        "price":"$499",
+        "image1":"../assets/SOFT-SKILLS.png",
+        "image2":"../assets/soft.png"
+        
+    },
+    {
+        "id":4,
+        "name":"DSA", 
+        "description":"The DSA course covers fundamental to advanced concepts including arrays, linked lists, trees, graphs, recursion, and dynamic programming. You will learn how to write efficient algorithms and solve coding interview problems like a pro. This is the most crucial step for landing software engineering roles.",
+        "portions": [
+        "Arrays & Strings",
+        "Linked Lists",
+        "Stacks & Queues",
+        "Recursion & Backtracking",
+        "Searching & Sorting",
+        "Trees & Binary Search Trees",
+        "Graphs (BFS & DFS)",
+        "Dynamic Programming",
+        "Hashing & Maps"
+      ],
+        "price":"$499",
+        "image1":"../assets/DSA.png",
+        "image2":"../assets/datastructure.png"
+        
+    }
+],
+
+"LANGUAGES":[
+    {
+        "id":1,
+        "name":"JAVA ", 
+        "description":"Java is a versatile, object-oriented programming language used for building enterprise applications, Android apps, and backend systems. This course covers core concepts, OOP, collections, multithreading, and JDBC. You’ll learn to build scalable applications and prepare for industry-level development roles.",
+        "portions": [
+        "Core Java Basics",
+        "OOP Concepts",
+        "Exception Handling",
+        "Collections Framework",
+        "Multithreading",
+        "File Handling",
+        "JDBC",
+        "Java 8 Features"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/java/java-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/java/java-icon.svg"
+        
+        
+    },
+    {
+        "id":2, 
+        "name":"PYTHON", 
+        "description":"Python is a beginner-friendly language used in web development, automation, AI, data science, and backend systems. This course teaches syntax, functions, OOP, file handling, modules, and real-world project building. Perfect for freshers aiming for multi-domain career opportunities.",
+        "portions": [
+        "Python Basics & Syntax",
+        "Functions & Modules",
+        "OOP in Python",
+        "File Handling",
+        "Exception Handling",
+        "Libraries (NumPy, Pandas)",
+        "Virtual Environments",
+        "Project Building"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/python/python-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/python/python-icon.svg"
+        
+    },
+    
+    {
+        "id":3,
+        "name":"C", 
+        "description":"C is the foundation of many modern programming languages and is essential for system-level programming. This course covers data types, functions, arrays, pointers, and memory handling. It builds strong fundamentals required for embedded systems and core programming roles.",
+        "portions": [
+        "Basic Syntax",
+        "Data Types",
+        "Control Statements",
+        "Functions",
+        "Arrays & Strings",
+        "Pointers",
+        "Structures & Unions",
+        "File Handling"
+      ],
+        "price":"$499",
+        "image1":"../assets/c.png",
+        "image2":"../assets/c.png"
+        
+    },
+    {
+        "id":4,
+        "name":"C++", 
+        "description":"C++ is a powerful language widely used in system programming, game development, and performance-critical applications. This course includes OOP, memory management, STL, and algorithmic problem-solving. It helps you develop strong low-level programming and logical thinking skills.",
+        "portions": [
+        "Basic Syntax",
+        "Functions",
+        "OOP Concepts",
+        "Constructors & Destructors",
+        "Inheritance & Polymorphism",
+        "Pointers",
+        "STL (Vectors, Maps, etc.)",
+        "Memory Management"
+      ],
+        "price":"$499",
+        "image1":"../assets/cpp.png",
+        "image2":"../assets/cpp.png"
+    },
+    {
+        "id":5,
+        "name":"C-SHARP", 
+        "description":"C# is a modern, object-oriented language primarily used for Windows development, Unity game development, and backend services. This course teaches .NET basics, OOP, exception handling, LINQ, and API building. Ideal for students aiming for software and game development careers.",
+         "portions": [
+        "C# Basics",
+        "OOP Concepts",
+        "Exception Handling",
+        "Collections",
+        "LINQ",
+        "Delegates & Events",
+        "Async Programming",
+        "Introduction to .NET"
+      ],
+        "price":"$499",
+        "image1":"../assets/csha.png",
+        "image2":"../assets/csha.png"
+    },
+    {
+        "id":6,
+        "name":"HTML", 
+        "description":"HTML is the core language for structuring webpages and web applications. This course covers tags, elements, forms, semantic HTML, and website layout creation. It’s the starting point for anyone entering frontend or full-stack development.",
+        "portions": [
+        " Tags",
+        "Forms & Inputs",
+        "Tables & Lists",
+        "Semantic Tags",
+        "Multimedia Tags",
+        "Layouts & Structure",
+        "SEO Basics"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg"
+        
+    },
+    {
+        "id":7,
+        "name":"CSS", 
+        "description":"CSS is used to style and design beautiful, responsive web pages. This course teaches selectors, layouts, animations, Flexbox, Grid, and modern UI techniques. It helps you create visually appealing and mobile-friendly user interfaces.",
+         "portions": [
+        "Selectors & Properties",
+        "Box Model",
+        "Flexbox",
+        "Grid",
+        "Animations & Transitions",
+        "Responsive Design",
+        "Media Queries"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/w3_css/w3_css-icon~old.svg",
+        "image2":"https://www.vectorlogo.zone/logos/w3_css/w3_css-icon~old.svg"
+        
+    },
+    {
+        "id":8,
+        "name":"JAVASCRIPT", 
+        "description":"JavaScript is the primary language for dynamic and interactive web development. This course covers variables, functions, DOM manipulation, ES6+, APIs, and event handling. It prepares you for frontend, backend, and full-stack development roles.",
+        "portions": [
+        "JS Basics",
+        "Functions & ES6 Features",
+        "DOM Manipulation",
+        "Events",
+        "Promises & Async/Await",
+        "APIs & Fetch",
+        "Objects & Arrays"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"
+        
+    },
+    {
+        "id":9,
+        "name":"KOTLIN", 
+        "description":"Kotlin is a modern language used for Android development and backend services. This course covers syntax, OOP, coroutines, collections, and Android app building. It’s perfect for anyone targeting Android or JVM-based development jobs.",
+        "portions": [
+        "Kotlin Basics",
+        "Functions",
+        "OOP Concepts",
+        "Null Safety",
+        "Collections",
+        "Coroutines",
+        "Android Essentials"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg"
+        
+    },
+    {
+        "id":10,
+        "name":"SWIFT", 
+        "description":"Swift is the official language for iOS, iPadOS, and macOS app development. This course includes Swift syntax, OOP, protocols, UI development, and app building with SwiftUI. Best for students aiming for a career in iOS development.",
+        "portions": [
+        "Swift Basics",
+        "Functions",
+        "OOP & Protocols",
+        "Optionals",
+        "Collections",
+        "SwiftUI Basics",
+        "App Development Essentials"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/swift/swift-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/swift/swift-icon.svg"
+        
+    },
+    {
+        "id":11,
+        "name":"FLUTTER (Dart)", 
+        "description":"Flutter is a cross-platform UI toolkit for building mobile apps using a single codebase. This course teaches Dart basics, widgets, layouts, state management, API integration, and real app development. Ideal for learners who want to build Android & iOS apps fast.",
+         "portions": [
+        "Dart Basics",
+        "Widgets",
+        "Layouts",
+        "Stateful & Stateless Widgets",
+        "Navigation",
+        "State Management",
+        "API Integration"
+      ],
+        "price":"$499",
+        "image1":"../DummyData/assets/flutter.svg",
+        "image2":"../DummyData/assets/flutter.svg"
+        
+    },
+    {
+        "id":12,
+        "name":"MySQL", 
+        "description":"MySQL is a powerful relational database system used in web apps, enterprise systems, and backend services. This course covers SQL queries, joins, constraints, indexing, stored procedures, and database design. It helps you manage data efficiently and work on real-world database projects.",
+         "portions": [
+        "SQL Basics",
+        "DDL & DML Commands",
+        "Joins",
+        "Grouping & Aggregation",
+        "Constraints",
+        "Indexes",
+        "Stored Procedures & Functions",
+        "Database Design"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/mysql/mysql-ar21~bgwhite.svg",
+        "image2":"https://www.vectorlogo.zone/logos/mysql/mysql-ar21~bgwhite.svg"
+        
+    }
+],
+
+"COLLAB":[
+    {
+        "id":1,
+        "name":"GIT & GITHUB", 
+        "description":"Git & GitHub help developers manage code versions, collaborate efficiently, and work on projects with teams. This course covers branching, merging, pull requests, conflict resolution, and repository management. You'll learn real-world workflows used in software companies for smooth and organized development.",
+        "portions": [
+        "Git Installation & Setup",
+        "Basic Git Commands (add, commit, push)",
+        "Branching & Merging",
+        "Pull Requests & Code Review",
+        "Resolving Merge Conflicts",
+        "Working with GitHub Repositories",
+        "GitHub Actions Basics",
+        "Collaboration Workflow"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"
+        
+    },
+    {
+        "id":2, 
+        "name":"VERCEL", 
+        "description":"Vercel is a fast, developer-friendly platform for deploying frontend applications. This course teaches project deployment, custom domains, environment variables, and Git integration. Ideal for React, Next.js, and static site hosting with minimal configuration and maximum performance.",
+        "portions": [
+        "Introduction to Vercel",
+        "Project Deployment",
+        "Environment Variables",
+        "Connecting GitHub Repository",
+        "Domains & Routing",
+        "Serverless Functions Basics",
+        "Analytics & Performance Tools"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg"
+    },
+    
+    {
+        "id":3,
+        "name":"NETLIFY", 
+        "description":"Netlify allows developers to deploy static websites and frontend apps instantly with CI/CD support. This course covers build settings, continuous deployment, serverless functions, forms, and custom domain setup. Perfect for hosting modern frontend frameworks with ease.",
+        "portions": [
+        "Netlify Dashboard Overview",
+        "Continuous Deployment",
+        "Configuring Build Settings",
+        "Environment Variables",
+        "Netlify Forms & Functions",
+        "Deploying Static Sites",
+        "Custom Domains & DNS"
+      ],
+        "price":"$499",
+        "image1":"https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg",
+        "image2":"https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg"
+        
+    },
+    {
+        "id":4,
+        "name":"RENDER", 
+        "description":"Render is a cloud platform used to deploy full-stack applications, APIs, static sites, and databases. This course includes web service deployment, Git auto-deploy, environment setup, logs, autoscaling, and database hosting. Best for learners wanting hands-on experience with real-world cloud deployment.",
+         "portions": [
+        "Render Platform Basics",
+        "Deploying Web Services",
+        "Deploying Static Sites",
+        "Environment Configuration",
+        "Connecting Git Repositories",
+        "Autoscaling & Logs",
+        "Managing Databases on Render"
+      ],
+        "price":"$499",
+        "image1":"../assets/render.png",
+        "image2":"../assets/render.png"
+        
+    }
+]
+
+}

@@ -1,0 +1,76 @@
+.carousel {
+    width: auto;
+    display: flex;
+    overflow-x: auto;
+    gap: 1em;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    animation: spin 15s infinite linear;
+}
+
+.element {
+    flex: 0 0 4em;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1em;
+    font-size: 3em;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+@keyframes spin {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: -100%
+    }
+}
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Tablet View (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .element {
+        flex: 0 0 3.5em;
+        max-width: 180px;
+        max-height: 180px;
+        font-size: 2.5em;
+        padding: 0.8em;
+    }
+}
+
+/* Mobile View (< 768px) */
+@media screen and (max-width: 768px) {
+    .carousel {
+        gap: 0.5em;
+    }
+
+    .group {
+        gap: 0.5em;
+    }
+
+    .element {
+        flex: 0 0 3em;
+        max-width: 120px;
+        max-height: 120px;
+        font-size: 1.8em;
+        padding: 0.5em;
+    }
+
+    .element img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+}

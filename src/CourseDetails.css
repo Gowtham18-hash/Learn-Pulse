@@ -1,0 +1,84 @@
+#group {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.card {
+    font-family: sans-serif;
+    width: 200px;
+    max-height: fit-content;
+    padding: 10px;
+    margin: 20px 50px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s linear;
+
+}
+
+.card img {
+
+    height: 120px;
+    border-radius: 15px;
+}
+
+.card button {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px rgba(110, 107, 107, 0.692);
+    cursor: pointer;
+}
+
+.card .content {
+    color: #ababab;
+}
+
+.card .content:hover {
+    color: #121317;
+}
+
+/* ======= RESPONSIVE DESIGN ======*/
+
+/* Tablet View (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    #group {
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 200px;
+        margin: 15px 30px;
+    }
+}
+
+/* Mobile View (< 768px) */
+@media screen and (max-width: 768px) {
+    #group {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+    .card img {
+        height: 140px;
+    }
+
+    .card button {
+        padding: 8px;
+        font-size: 14px;
+    }
+}

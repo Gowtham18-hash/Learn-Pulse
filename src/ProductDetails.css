@@ -1,0 +1,214 @@
+.ProductDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 60px;
+  gap: 80px;
+}
+
+#left-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#ProductImage {
+  width: 700px;
+  height: 500px;
+  object-fit: contain;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+#right-content {
+  flex: 1;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  animation: slideUp 0.7s ease;
+}
+
+#right-content h1 {
+  font-size: 34px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+#right-content h3 {
+  font-size: 18px;
+  line-height: 1.5;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+#right-content p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* Button */
+#right-content button {
+  background: #e5e2e2;
+  color: #ababab;
+  /* Python yellow */
+  padding: 12px 28px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.25s;
+}
+#details-footer{
+  display: block;
+  text-align: center;
+}
+#right-content button:hover {
+  transform: scale(1.07);
+  color: #121317;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.divider {
+  width: 3px;
+  height: 320px;
+  background: linear-gradient(to bottom,
+      rgba(133, 133, 133, 0.7),
+      rgba(255, 212, 59, 0.2));
+  border-radius: 50px;
+
+  /* Glow effect */
+  box-shadow:
+    0 0 12px rgba(18, 18, 17, 0.7),
+    0 0 20px rgba(62, 62, 62, 0.4);
+
+  animation: glowPulse 3s infinite ease-in-out;
+}
+
+@keyframes glowPulse {
+  0% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.8;
+  }
+}
+
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Tablet View (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .ProductDetails {
+    padding: 30px 40px;
+    gap: 50px;
+  }
+
+  #ProductImage {
+    width: 500px;
+    height: 400px;
+  }
+
+  #right-content {
+    padding: 25px;
+  }
+
+  #right-content h1 {
+    font-size: 28px;
+  }
+
+  #right-content h3 {
+    font-size: 16px;
+  }
+
+  #right-content p {
+    font-size: 20px;
+  }
+
+  .divider {
+    height: 250px;
+  }
+}
+
+/* Mobile View (< 768px) */
+@media screen and (max-width: 768px) {
+  .ProductDetails {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+
+  #left-content {
+    width: 100%;
+  }
+
+  #ProductImage {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  #right-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  #right-content h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  #right-content h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  #right-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  #right-content button {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+
+  .divider {
+    display: none;
+  }
+}
