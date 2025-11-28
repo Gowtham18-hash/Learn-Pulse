@@ -28,7 +28,7 @@ function Home() {
                 <div className='options'>
                     <Link to="/"></Link>
                     <Link to="/IT" className='button'>🖥️ IT</Link>
-                    <Link to="/NON-IT" className='button'>✨ Non-IT</Link>
+                    <Link to="/NON-IT" className='button'>🎧 Non-IT</Link>
                     <Link to="/INTERVIEW" className='button'>💼 Interview</Link>
                     <Link to="/Languages" className='button'>🎯 Languages</Link>
                     <Link to="/Collab" className='button'>🪢Collab</Link>
@@ -36,10 +36,10 @@ function Home() {
 
                 <div className="carousel">
                     <div className="group">
-                        <div className="element"><img width="200" height="200" src="../assets/mongodb.svg" alt="" /></div>
-                        <div className="element"><img width="200" height="200" src="../assets/python.svg" alt="" /></div>
+                        {/* <div className="element"><img width="200" height="200" src="../assets/mongodb.svg" alt="" /></div> */}
+                        {/* <div className="element"><img width="200" height="200" src="../assets/python.svg" alt="" /></div> */}
                         <div className="element"><img width="100" height="100" src="../assets/android.svg" alt="" /></div>
-                        <div className="element"><img width="150" height="150" src="../assets/mysql.svg" alt="" /></div>
+                        <div className="element"><img width="200" height="200" src="../assets/mysql.svg" alt="" /></div>
                         <div className="element"><img width="100" height="60"  src="../assets/aws.svg" alt="" /></div>
                         <div className="element"><img width="120" height="120" src="../assets/zapier.svg" alt="" /></div>
                         <div className="element"><img width="120" height="120" src="../assets/salesforce.svg" alt="" /></div>
@@ -50,10 +50,10 @@ function Home() {
 
                     </div>
                     <div aria-hidden className="group">
-                        <div className="element"><img width="200" height="200" src="../assets/mongodb.svg" alt="" /></div>
-                        <div className="element"><img width="200" height="200" src="../assets/python.svg" alt="" /></div>
+                        {/* <div className="element"><img width="200" height="200" src="../assets/mongodb.svg" alt="" /></div> */}
+                        {/* <div className="element"><img width="200" height="200" src="../assets/python.svg" alt="" /></div> */}
                         <div className="element"><img width="100" height="100" src="../assets/android.svg" alt="" /></div>
-                        <div className="element"><img width="150" height="150" src="../assets/mysql.svg" alt="" /></div>
+                        <div className="element"><img width="200" height="200" src="../assets/mysql.svg" alt="" /></div>
                         <div className="element"><img width="100" height="60"  src="../assets/aws.svg" alt="" /></div>
                         <div className="element"><img width="120" height="120" src="../assets/zapier.svg" alt="" /></div>
                         <div className="element"><img width="120" height="120" src="../assets/salesforce.svg" alt="" /></div>
