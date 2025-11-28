@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './CourseDetails.css'
+import { lazy } from 'react'
 function CourseDetails(props) {
 
     return (
@@ -7,7 +8,7 @@ function CourseDetails(props) {
             <div className="card" >
                 <Link to={`/${props.category}/${props.id}`} style={{ textDecoration: "none", color: "black" }}>
                     <div className='content'>
-                    <img src={props.image} alt="" />
+                    <img loading='lazy' src={props.image} alt="" />
                         <h3 >{props.name}</h3>
                         <h6 >{props.description}</h6>
                         <p >{props.price}</p>
