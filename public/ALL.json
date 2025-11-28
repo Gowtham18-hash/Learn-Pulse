@@ -550,8 +550,8 @@
         "API Integration"
       ],
         "price":"$499",
-        "image1":"../DummyData/assets/flutter.svg",
-        "image2":"../DummyData/assets/flutter.svg"
+        "image1":"../assets/flutter.svg",
+        "image2":"../assets/flutter.svg"
         
     },
     {
